@@ -6,4 +6,5 @@ WriteMakefile(
     VERSION_FROM => 'lib/Netx/WebRadio.pm', # finds $VERSION
     AUTHOR       => 'Nathanael Obermayer (natom-pause@smi2le.net)',
     ABSTRACT     => 'receive one or more webradio-stations',
+    PREREQ_PM	 => { 'Class::MethodMaker' => 0 },
 );

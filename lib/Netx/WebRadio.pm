@@ -8,7 +8,7 @@ use Carp;
 BEGIN {
 	#use Exporter ();
 	use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-	$VERSION     = 0.02;
+	$VERSION     = 0.03;
 	#@ISA         = qw (Exporter);
 	#@EXPORT      = qw ();
 	#@EXPORT_OK   = qw ();
@@ -43,6 +43,8 @@ Netx::WebRadio - receive one or more webradio-stations
   }
 
 =head1 DESCRIPTION
+
+THIS IS BETA SOFTWARE!
 
 Netx::WebRadio is a framework for receiving one or more webradio streams.
 
